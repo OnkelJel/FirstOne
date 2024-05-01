@@ -37,6 +37,7 @@ const swagmessiah = () => {
     var nuclearPosition = [3,3]
     const nname = "legalizeNuclearBombs"
     mapo[nuclearPosition[0]][nuclearPosition[1]] = nname
+    console.log("LEGALIZE NUCLEAR BOMBS ☢️ ☢️ ☢️")
   }
   legalizeNuclearBombs(moistCr1t1kal)
 
