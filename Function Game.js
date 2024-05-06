@@ -43,3 +43,45 @@ const swagmessiah = () => {
 
 }
 mapharhar()
+
+
+
+
+const characterStats = {
+  classOfHero: 'Mage',
+  speed: 80,
+  healt: 50,
+  attackDamage: {
+    physicalDamage: 10,
+    specialDamage: 80,
+  }
+}
+//fx 1 is extra damage fx 2 is flinch fx 3 reflexion
+const theSwagBag = [
+  {itemType: "booster", name: "the cruz of x", quantity: 10, fx: 1, icon: "🎲"},
+  {itemType: "booster", name: "salty salt", quantity: 4, fx: 2, icon: "🧂"}
+]
+
+const catastrophicCompartment = [
+  {
+    itemType: "trapCard", name: "mirror force", quantity: 1, fx: 0, icon: "🇦🇹"
+  },
+  {
+    itemType: "weapon", name: "schnitzel", quantity: 7, icon: "🍗"
+  }
+]
+
+const nuclearStats = {
+  classOfHero: "Ranged",
+  speed: 60,
+  healt: 30,
+  attackDamage: {
+    physicalDamage: 90,
+    specialDamage: 70
+  }
+}
+
+characterStats.classOfHero
+characterStats['classOfHero']
+
+// someone attacked Swag MESSIAH
